@@ -9,6 +9,8 @@ Back Action with UINavigationControllerDelegate
 
 ## Code
 
+### Primera Vista
+
 ```swift
 //
 //  ViewController.swift
@@ -56,6 +58,8 @@ class ViewController: UIViewController {
 * Si pusieramos un par de *break points* nos dariamos cuanta que antes de entrar a *willShow* de *UINavigationControllerDelegate* ejecuta el *viewWillAppear* del *viewController* esto es porque en el *viewWillAppear* va todo tipo de transición gráfica, y en el *viewDidAppear* se hace el consumo de variables (un servicio o un calculo), de preferencia.
 
 * Para crear el *Segue* seleccionamos el ViewController (en la cajita amarilla de arriba) y hacemos *drag and drop con la flecha azul* hacia SecondViewController
+
+### Segunda Vista
 
 ```swift
 //
