@@ -4,7 +4,7 @@ Back Action with UINavigationControllerDelegate
 ## Definición
 
 <p align="justify">
-	Cuando queremos pasar algun tipo de variable a una vista en el preciso momento que presionamos el ** boton de Back < ** podemos usar un protocolo creado por nos otros y delegarlo a través del segue, sino queremos crear lo podemos usar <i>UINavigationControllerDelegate</i>.
+	Cuando queremos pasar algun tipo de variable a una vista en el preciso momento que presionamos el <b>boton de Back <</b> podemos usar un protocolo creado por nos otros y delegarlo a través del segue, sino queremos crear lo podemos usar <i>UINavigationControllerDelegate</i>.
 </p>
 
 ## Code
